@@ -1,0 +1,121 @@
+header {
+    background: radial-gradient(blue, aqua);
+    /* background: radial-gradient(blue, white); */
+    /* background: radial-gradient(orange, red); */
+
+    /* background-color: orange; */
+    font-size: 16px;
+}
+
+
+/* FORM */
+header .form {
+    width: 360px;
+    padding: 10px;
+    border: 1px solid white;
+
+    /* background-color: transparent; */
+    /* background-color: blue; */
+    /* background-color: darkblue; */
+    color: white;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    /* glass effect */
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4.9px);
+    -webkit-backdrop-filter: blur(4.9px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.form h2 {
+    font-size: 40px;
+    font-weight: 100;
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.form input {
+    width: 200px;
+    padding: 10px;
+    margin: 20px auto;
+    border: 1px solid white;
+    outline: none;
+    border-radius: 20px;
+
+    text-align: center;
+    display: block;
+    background: transparent;
+    color: yellow;
+
+    transition: 300ms ease;
+}
+
+.form input:focus {
+    border: 2px solid yellow;
+    width: 240px;
+}
+
+.form ::placeholder {
+    color: white;
+    font-family: cursive;
+}
+
+
+/* BUTTON */
+.form button {
+    margin: 10px auto;
+    padding: 10px 20px;
+
+    outline: none;
+    border: 2px solid yellow;
+    border-radius: 20px;
+    background: transparent;
+    color: white;
+
+    display: block;
+    transition: 400ms ease;
+    cursor: pointer;
+}
+
+.form button:hover,
+.form button:focus {
+    background-color: yellow;
+    color: blue;
+    font-family: serif;
+    font-size: 18px;
+}
+
+
+/* FORGOT */
+.form .more {
+    margin: auto;
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+}
+
+.more a {
+    margin: auto;
+    padding: 5px 10px;
+    display: block;
+    text-decoration: none;
+    color: yellow;
+
+    /* border: none; */
+    outline-color: yellow;
+    width: fit-content;
+    transition: 400ms ease;
+}
+
+.more a:hover {
+    color: black;
+    background-color: yellow;
+}

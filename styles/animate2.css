@@ -1,0 +1,21 @@
+@keyframes border1 {
+    0% {
+        border:none
+    }
+
+    100% {
+        border:1px solid white; 
+    }
+}
+
+
+@keyframes move1{
+    from{
+        transform:translateY(-150px);
+    }
+}
+
+main section{
+    /* animation: border1 5s ease;  */
+    animation: move1 1s ease-in; 
+}

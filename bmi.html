@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>BMI Calculator</title>
+
+    <!-- favicon -->
+    <link rel="icon" type="icon" href="./icons/logo.png">
+
+    <!-- fonts -->
+    <!-- font1 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zeyada&display=swap" rel="stylesheet">
+
+    <!-- font2 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&family=Zeyada&display=swap"
+        rel="stylesheet">
+
+
+    <!-- my-styles -->
+    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="./styles/style-bmi.css">
+</head>
+
+<body>
+    <!-- NAV -->
+    <nav class="center">
+        <ul>
+            <li>
+                <a href="./index.html">Home</a>
+            </li>
+            <li>
+                <a href="./about.html">About</a>
+            </li>
+            <li>
+                <a href="./contact.html">Contact</a>
+            </li>
+            <li>
+                <a href="./gallery.html">Gallery</a>
+            </li>
+            <li>
+                <a href="bmi.html">BMI calculator</a>
+            </li>
+
+            <ul class="center">
+                <base target="_blank">
+
+                <li class="list-login-signup">
+                    <a href="login.html">Login</a>
+                </li>
+                <li class="list-login-signup">
+                    <a href="signup.html">Sign up</a>
+                </li>
+            </ul>
+        </ul>
+    </nav>
+
+    <!-- HEADER -->
+    <header class="center">
+        <h1>BMI Calculator</h1>
+    </header>
+
+
+    <!-- MAIN -->
+    <main class="center">
+        <div class="card center">
+            <div>
+                <input id="height" type="text" placeholder="Height (in cm)">
+                <input id="mass" type="text" placeholder="Mass (in kg)">
+
+                <div class="center">
+                    <button onclick="calcBMI()">Calculate</button>
+                </div>
+
+                <p id="bmi-result"></p>
+
+                <div class="center">
+                    <a href="https://www.betterhealth.vic.gov.au/health/healthyliving/body-mass-index-bmi">
+                        What is a BMI?
+                    </a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- FOOTER -->
+</body>
+
+
+<script>
+    function calcBMI() {
+        // let h = parseInt(document.getElementById("height").value);
+        let h = document.getElementById("height").value;
+        let m = document.getElementById("mass").value;
+        let result = document.getElementById("bmi-result");
+
+        let state;
+        let bmi = m / ((h / 100) ** 2);
+        bmi = Math.round(bmi * 100) / 100;
+        // =============================================
+
+        if (m == NaN) {
+            result.innerHTML = "enter a number";
+            console.log("enter a number");
+        }
+
+
+        if (bmi < 18.5) {
+            state = "underweight";
+        }
+        else if (bmi > 18.5 && bmi < 24.9) {
+            state = "healthy weight";
+        }
+        else if (bmi > 25 && bmi < 29.9) {
+            state = "overweight";
+        }
+        else if (bmi > 30) {
+            state = "obese";
+        }
+
+        result.innerHTML = bmi + "<br>" + state;
+
+        // endPoint = bmi + ", " + state;
+        endPoint = `${bmi}, ${state}`;
+        console.log(endPoint);
+    }
+</script>
+
+</html>

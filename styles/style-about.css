@@ -1,0 +1,64 @@
+/* HEADER */
+header {
+    height: 30vh;
+    background-color: black;
+}
+
+
+/* MAIN */
+/* main {
+    background-color: rgb(195, 117, 9);
+} */
+
+main .container {
+    height: 100vh;
+    width: 100%;
+    /* background-color: whitesmoke; */
+}
+
+main #for-img1 {
+    background-image: url("./images/fitness\ \(3\).jpg");
+}
+
+main #for-img2 {
+    background-image: url("./images/g3.jpg");
+}
+
+/* @override */
+.overlay {
+    width: 50vw;
+    height: 70vh;
+    max-height: 80vh;
+    border-radius: 30px;
+}
+
+.overlay p {
+    margin-bottom: 10px;
+    color: white;
+    text-align: center;
+
+    font-weight: 500;
+    font-size: 18px;
+    font-family: 'Quicksand';
+}
+
+.overlay #end {
+    color: yellow;
+}
+
+
+/* section */
+main section {
+    padding: 20px;
+    border: 1px solid white;
+    transition: 700ms ease-in-out;
+}
+
+main section:hover {
+    border: 2px solid white;
+    background-color: blue;
+    opacity: 0.8;
+    transform: scale(1.1);
+
+    box-shadow: 10px 10px 1px black;
+}

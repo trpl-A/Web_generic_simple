@@ -1,0 +1,26 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "username": "Jackson",
+            "email": "jacks@gmail.com",
+            "password": "Jack01",
+            "role": "Admin"
+        },
+        {
+            "id": 2,
+            "username": "Nancy",
+            "email": "nice-nancy@gmail.com",
+            "password": "Nan02",
+            "role": "User"
+        },
+        {
+            "id": 3,
+            "username": "Samson",
+            "email": "samsam@gmail.com",
+            "password": "Sam03",
+            "role": "Admin"
+        }
+    ],
+    "name": "testing"
+}

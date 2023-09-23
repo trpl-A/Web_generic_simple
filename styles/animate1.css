@@ -1,0 +1,27 @@
+  @keyframes shadow1 {
+      0% {
+          text-shadow: black 0px 0px 0px;
+      }
+
+      20% {
+          text-shadow: black 20px 10px 0px;
+      }
+
+      50% {
+          text-shadow: black 50px 10px 0px;
+          color: red;
+      }
+
+      70% {
+          text-shadow: black 30px 10px 0px;
+      }
+
+      80% {
+          text-shadow: black 0px 0px 0px;
+      }
+  }
+
+
+  header h1 {
+      animation: shadow1 10s ease infinite;
+  }
