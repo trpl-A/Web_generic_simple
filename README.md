@@ -1,7 +1,7 @@
 # Program:      Business/e-commerce website
-*Desc*      
-* a generic website about fitness and food, with login and signup pages
-* (a simple multi-page website, using html, css, and js(responsive design))
+- _Desc_      
+    * a generic website about fitness and food, with login and signup pages
+    * (a simple multi-page website, using html, css, and js(responsive design))
 
 - Creator:      trpl-A
 - Started:      02.05.23 
