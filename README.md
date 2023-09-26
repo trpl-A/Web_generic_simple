@@ -6,9 +6,9 @@
 - creator:      trpl-A
 - started:      02.05.23 
 - updated:      26.09.23
->>>>> status:       - COMPLETE
-                    - connected to github? yes
-                    - using git? yes
+- status:       > COMPLETE
+                > connected to github? yes
+                > using git? yes
 
 
 More notes
