@@ -6,31 +6,72 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Sign Up</title>
+    <title>Sign up</title>
 
-    <link rel="stylesheet" href="styles/main.css">
-    <link rel="stylesheet" href="styles/style-signup.css">
+    <!-- favicon -->
+    <link rel="icon" type="icon" href="./icons/logo.png">
+
+    <!-- fonts -->
+    <!-- font1 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zeyada&display=swap" rel="stylesheet">
+
+    <!-- font2 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&family=Zeyada&display=swap"
+        rel="stylesheet">
+
+    <!-- my-styles -->
+    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="./styles/style-signup.css">
 </head>
 
 <body>
-    <header>
-        <div class="form">
+    <!-- HEADER -->
+    <header class="center">
+        <div class="container">
             <h2>Sign up</h2>
 
-            <input type="text" id="username" placeholder="username">
-            <input type="password" id="password" placeholder="password">
+            <div class="form-outer center">
 
-            <button type="button" onclick="click1()">Sign Up</button>
+                <form action="" method="post" id="form" class="">
+                    <div class="center">
+                        <input required type="text" name="username" id="username" placeholder="Username">
+                    </div>
 
-            <div class="more">
-                <p>Already have an account?</p>
-                <a href="./login.html" id="sign-up">Login</a>
+                    <div class="center">
+                        <input required type="email" name="email" id="email" placeholder="Email address">
+                    </div>
+
+                    <div class="center">
+                        <input required type="password" name="password" id="password" placeholder="Password">
+                    </div>
+
+                    <div class="center">
+                        <!-- add some conditional statements -->
+                        <button id="submit" type="button" onclick="window.alert('Data recorded')">Sign up</button>
+                    </div>
+                </form>
             </div>
 
+            <div class="more">
+                <div id="more" class="center">
+                    <p>Already have an account?</p>
+                </div>
+
+                <div class="center">
+                    <a id="go-to-login" href="./login.html" id="sign-up">Log in</a>
+                </div>
+            </div>
         </div>
     </header>
 </body>
 
-<script src="./app2.js"></script>
+<!-- my-script -->
+<!-- save data somewhere -->
+<script src=""></script>
+
 
 </html>

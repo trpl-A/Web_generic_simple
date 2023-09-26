@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Login</title>
+    <title>Log in</title>
 
     <!-- favicon -->
     <link rel="icon" type="icon" href="./icons/logo.png">
@@ -17,106 +17,66 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Zeyada&display=swap" rel="stylesheet">
 
-    <!-- font2 -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&family=Zeyada&display=swap"
-        rel="stylesheet">
 
     <!-- my-styles -->
-    <link rel="stylesheet" href="./styles/main.css">
-    <link rel="stylesheet" href="./styles/style-login.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/style-login.css">
+
+    <!-- my-script -->
+    <script src="scripts/scriptLogin.js"></script>
+    <script src="scripts/user.json"> </script>
 </head>
 
 <body>
-    <!-- HEADER -->
     <header class="center">
-        <div class="container">
-            <h2>Login</h2>
-
-            <div class="form-outer center">
+        <div class="form center">
+            <div>
+                <h2>Log in</h2>
 
                 <form action="" method="post" id="form" class="">
-                    <input type="text" name="username" id="username" placeholder="Username">
-                    <input type="email" name="email" id="email" placeholder="Email address">
-                    <input type="password" name="password" id="password" placeholder="Password">
+                    <div class="center">
+                        <input type="text" name="username" id="username" placeholder="Username">
+                    </div>
 
                     <div class="center">
-                        <p id="info" style="color:red; font-style:italic"></p>
+                        <input type="password" name="password" id="password" placeholder="Password">
                     </div>
+
+                    <p id="info"></p>
+                    <style>
+                        #info {
+                            color: white;
+                            text-align: center;
+                            padding: 10px;
+
+                            font-size: 18px;
+                            font-family: arial;
+                            font-weight: 100;
+                        }
+                    </style>
                     <!-- <p id="incorrect"></p> -->
 
                     <div class="center">
+                        <!-- <button id="submit" type="button" onclick="v()">Log in</button> -->
                         <button id="submit" type="button" onclick="validate()">Log in</button>
-
                     </div>
                 </form>
-            </div>
 
-            <div class="center">
-                <a id="forgot-password" href="./forgot-password.html">Forgot Password</a>
-            </div>
+                <!-- more -->
+                <div class="more">
+                    <div class="center">
+                        <a id="forgot-password" href="./forgot-password.html">Forgot Password</a>
+                    </div>
 
-            <div class="center">
-                <a id="go-to-signup" href="./signup.html">Sign up</a>
+                    <div class="center">
+                        <a id="go-to-signup" href="./signup.html">Sign up</a>
+                    </div>
+
+                </div>
             </div>
         </div>
     </header>
 </body>
-
-<!-- my-script -->
-<script src="scripts/scriptLogin.js"></script>
-<script src="user.json"> </script>
-
-<!-- <script src="data.json"></script>  -->
-<script>
-    // "use strict"; 
-    // import "users" from "./data.json" assert {type: "json"};
-
-
-    // use with arrays and objects
-    // console.table()
-
-    let users = `[
-        {
-            "id": 1, 
-            "username": "Jackson", 
-            "password": "Jack01",
-            "role": "Admin"
-        },
-        
-        {
-            "id": 2, 
-            "username": "Nancy",
-            "password": "Nan02",
-            "role": "User"
-        },
-
-        {
-            "id": 3, 
-            "username": "Samson",
-            "password": "Sam03",
-            "role": "Admin"
-        }
-    ]`
-
-    // console.log(JSON.parse(users))
-    // console.log(JSON.parse(users)[0])
-    // console.log(JSON.parse(users)[0]["username"])
-    // console.log(JSON.parse(users)[0]["password"])
-    // console.table(
-    //     JSON.parse(users)[0]["username"],
-    //     JSON.parse(users)[0]["password"]
-    // )
-
-
-    // fetch api blocked by CORS
-    // fetch("data.json")
-    // .then(res => res.json())
-    // .then(data => {
-    //     console.log(data)
-    // })
-</script>
 
 
 </html>

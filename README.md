@@ -3,15 +3,14 @@
                 (a simple multi-page website, using html, css, and js(responsive design))
 - creator:      trpl-A
 - started:      02.05.23 
-- updated:      21.09.23
-- status:       work-in-progress
-                connected to github? no
-                using git? no
+- updated:      26.09.23
+- status:       COMPLETE
+                connected to github? yes
+                using git? yes
 
 
 More notes
 ==========
-
 Design choices
 --------------
 - primary colors 
@@ -34,6 +33,7 @@ Design choices
     > 'Quicksand', (for headers)
     > a sans-serif font
     > chose this font because it is more appealing that the default sans-serif fonts
+---------------------------
 
 - webpages
     > index.html
@@ -42,11 +42,10 @@ Design choices
     > gallery.html
     > bmi.html
     > login.html
-    > sign-up.html
+    > signup.html
 
+    > 404.html
     > forgot-password.html
     > login-success.html
-    > 404.html
 ---------------------------
-
 <end>

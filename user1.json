@@ -1,8 +1,0 @@
-{
-	"users": [
-		{"id": 1, "uname": "Jackson", "pword": "Jack01", "role": "Admin"},
-		{"id": 2, "uname": "Nancy", "pword": "Nan02", "role": "User"},
-		{"id": 3, "uname": "Samson", "pword": "Sam03", "role": "Admin"}
-	]
-
-}

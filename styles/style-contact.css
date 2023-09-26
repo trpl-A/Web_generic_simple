@@ -6,8 +6,8 @@ header {
 
 /* MAIN */
 main {
-    /* background-color: lightgray; */
-    background-color: aqua;
+    background: radial-gradient(white, blue);
+    /* background-color: aqua; */
     min-height: 70vh;
 }
 
@@ -16,10 +16,9 @@ main {
 main form {
     padding: 40px 20px;
     background-color: black;
+    width: 320px;
 
-    width: 400px;
-
-    border-radius: 15%;
+    border-radius: 5%;
     font-size: 16px;
     font-family: sans-serif;
     font-weight: 100;
@@ -31,14 +30,17 @@ main form:hover {
     box-shadow: 1px 1px 20px blue;
 }
 
+
+
+/* input */
 ::placeholder {
     color: aqua;
 }
 
-
 main input {
     display: block;
     margin: 10px 0 30px 0;
+    padding: 5px;
     background: transparent;
     color: white;
     font-size: 16px;
@@ -48,7 +50,6 @@ main input {
     outline: none;
     border: none;
     /* border-left: 1px solid white; */
-    padding: 5px;
     border-bottom: 1px solid darkslategray;
     /* width: 100px; */
     transition: 400ms ease;
@@ -89,7 +90,7 @@ textarea:focus {
 /* BUTTON */
 main button {
     border: none;
-    /* border: 1px solid black; */
+    border: 2px solid white;
     padding: 10px 20px;
     margin: 10px 0;
     font-size: 20px;

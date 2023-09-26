@@ -17,7 +17,8 @@ main .container {
 }
 
 main #for-img1 {
-    background-image: url("./images/fitness\ \(3\).jpg");
+    background-image: url("./images/person1.jpg");
+    background-position: right;
 }
 
 main #for-img2 {

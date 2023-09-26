@@ -1,4 +1,8 @@
+use sass and bootstrap in version2 of this 
+name: web-generic-bootstrap-sass 
+bootstrap-sass 
 
+l
 primary colors = [black, white, blue]
 secondary colors = [lightgrey, red, lightblue]
 

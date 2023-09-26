@@ -1,3 +1,0 @@
-user = '[{"ID": 1, "uname": "Jackson", "pword": "Jack01","Roll": "Admin"},'
-		+'{"ID": 2,"uname": "Nancy","pword": "Nan02","Roll": "User"},'
-		+'{"ID": 3,"uname": "Samson","pword": "Sam03","Roll": "Admin"}]'

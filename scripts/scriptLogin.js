@@ -53,7 +53,9 @@ function validate() {
         document.getElementById("username").disabled = true;
         document.getElementById("password").disabled = true;
         document.getElementById("submit").disabled = true;
-        document.getElementById("info").innerHTML = "Please contact your administrator";
+
+        let msg = document.getElementById("info");
+        msg.innerHTML = "Please contact your administrator";
         return false;
     }
 
@@ -63,21 +65,4 @@ function validate() {
     // for (a=0; a < attempts; a++){
 
     // }
-}
-
-fetch("./scripts/data1.json")
-    .then(res => res.json())
-    .then(d => {
-        console.log(d);
-    })
-
-function v() {
-    var username = document.getElementById("username").value;
-    var password = document.getElementById("password").value;
-
-    fetch("data.json")
-        .then(res => res.json())
-        .then(data => {
-            console.log(data);
-        })
 }

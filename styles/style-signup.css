@@ -1,121 +1,123 @@
-header {
+/* HEADER */
+/* container */
+header .container {
     background: radial-gradient(blue, aqua);
-    /* background: radial-gradient(blue, white); */
-    /* background: radial-gradient(orange, red); */
+    border: 2px solid white;
+    border-radius: 30px;
+    box-shadow: 1px 1px 20px blue;
 
-    /* background-color: orange; */
-    font-size: 16px;
+    padding: 20px 10px;
 }
 
-
-/* FORM */
-header .form {
-    width: 360px;
-    padding: 10px;
-    border: 1px solid white;
-
-    /* background-color: transparent; */
-    /* background-color: blue; */
-    /* background-color: darkblue; */
+.container h2 {
     color: white;
-
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-
-    /* glass effect */
-    /* From https://css.glass */
-    background: rgba(255, 255, 255, 0.2);
-    border-radius: 16px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(4.9px);
-    -webkit-backdrop-filter: blur(4.9px);
-    border: 1px solid rgba(255, 255, 255, 0.3);
+    font-size: 50px;
+    font-family: 'Zeyada', cursive;
+    text-align: center;
+    padding: 10px;
 }
 
-.form h2 {
-    font-size: 40px;
-    font-weight: 100;
-    padding: 10px;
-    margin-bottom: 20px;
-    text-align: center;
+
+header .form-outer {
+    /* border: 1px solid yellow; */
+    background-color: black;
+    /* box-shadow: 20px -20px 70px red; */
+    padding: 40px 10px 20px 10px;
+
+    border-radius: 30px;
+    width: 340px;
+    min-height: 300px;
 }
 
-.form input {
-    width: 200px;
-    padding: 10px;
-    margin: 20px auto;
-    border: 1px solid white;
-    outline: none;
-    border-radius: 20px;
 
+
+header form {
+    /* width: 450px; */
+    width: fit-content;
+    height: fit-content;
+    background-color: transparent;
+}
+
+form input {
     text-align: center;
+
     display: block;
     background: transparent;
-    color: yellow;
-
-    transition: 300ms ease;
-}
-
-.form input:focus {
-    border: 2px solid yellow;
-    width: 240px;
-}
-
-.form ::placeholder {
     color: white;
-    font-family: cursive;
+    border: none;
+    outline: none;
+
+    padding: 10px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid darkslategray;
+}
+
+form input:focus {
+    border-bottom: 1px solid white;
 }
 
 
-/* BUTTON */
-.form button {
-    margin: 10px auto;
+/* button */
+/* .my-button */
+form button {
+    border: none;
     padding: 10px 20px;
+    margin: 20px 0;
+    font-size: 20px;
 
-    outline: none;
-    border: 2px solid yellow;
+    /* box-shadow: inset 1px 1px 20px red; */
+    background-color: white;
+    color: black;
     border-radius: 20px;
-    background: transparent;
-    color: white;
-
-    display: block;
-    transition: 400ms ease;
+    transition: 800ms ease;
     cursor: pointer;
 }
 
-.form button:hover,
-.form button:focus {
-    background-color: yellow;
-    color: blue;
-    font-family: serif;
-    font-size: 18px;
+form button:hover,
+form button:focus {
+    background-color: white;
+    box-shadow: 1px 1px 20px rgb(45, 45, 236);
 }
 
 
-/* FORGOT */
-.form .more {
-    margin: auto;
-    text-align: center;
+/* forgot password */
+/* sign-up link */
+#forgot-password,
+#go-to-signup,
+#go-to-login {
+    background-color: black;
     color: white;
     font-family: sans-serif;
-}
 
-.more a {
-    margin: auto;
-    padding: 5px 10px;
-    display: block;
-    text-decoration: none;
-    color: yellow;
-
-    /* border: none; */
-    outline-color: yellow;
+    padding: 15px 30px;
+    margin: 20px 0;
     width: fit-content;
-    transition: 400ms ease;
+    height: fit-content;
+    border-radius: 30px;
+
+    transition: 600ms ease-in;
 }
 
-.more a:hover {
+#forgot-password:hover,
+#go-to-signup:hover,
+#go-to-login:hover {
+    background-color: white;
     color: black;
-    background-color: yellow;
+    box-shadow: 2px 2px 20px blue;
+}
+
+.more {
+    background-color: black;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 40px;
+}
+
+#more {
+    color: white;
+}
+
+#more p {
+    padding: 10px 0 0 0;
+    color: aqua;
 }
