@@ -1,5 +1,5 @@
 # Program:      Business/e-commerce website
-> Desc:         
+*Desc*      
 * a generic website about fitness and food, with login and signup pages
 * (a simple multi-page website, using html, css, and js(responsive design))
 
@@ -9,7 +9,7 @@
 - Status:       > COMPLETE
                 > connected to github? yes
                 > using git? yes
-
+---
 
 ## More notes
 
