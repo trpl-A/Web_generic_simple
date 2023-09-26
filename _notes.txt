@@ -11,37 +11,11 @@ use heroku? to host the app
 Mozart - Requiem
 https://www.youtube.com/watch?v=Zi8vJ_lMxQI
 https://www.youtube.com/watch?v=ZNwz6wj1yRs
-
-for documentation
-- add some images of what the website looks like too
-- 
-
-- create a seperate style sheet if styles are longer than 50 lines
-- learn about the var in css, and css variables
-- for home page, put navbar right on top or, after cover image? 
-
-- add a parallax effect somewhere in the website 
-
-css glass effect
-https://css.glass/
-https://hype4.academy/tools/glassmorphism-generator
-
-
 purpose of website
 - business website
 - provide users with info about fitness and food
 
-the website, or cetain parts of it, can be used as templates, eg, common.css, main.css 
-
-
-colors (secondary)
-- lightgrey; 
-- 
-
-
-take screenshots of login, sign up, and maybe about pages
-
-add some sort of copyright thing, and 'made y trpl-a'
-
-
+css glass effect
+https://css.glass/
+https://hype4.academy/tools/glassmorphism-generator
 <end>
