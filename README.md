@@ -1,30 +1,31 @@
 # Program:      Business/e-commerce website
-> desc:         
+> Desc:         
 * a generic website about fitness and food, with login and signup pages
 * (a simple multi-page website, using html, css, and js(responsive design))
+> 
 
-- creator:      trpl-A
-- started:      02.05.23 
-- updated:      26.09.23
-- status:       > COMPLETE
+- Creator:      trpl-A
+- Started:      02.05.23 
+- Updated:      26.09.23
+- Status:       > COMPLETE
                 > connected to github? yes
                 > using git? yes
 
 
-More notes
+## More notes
 ==========
 Design choices
 --------------
-- primary colors 
+- Primary colors 
     * white
     * black
     * blue
 
-- secondary
+- Secondary
     * aqua/ light blue
     * light grey
 
-- custom google fonts
+- Custom google fonts
     * font1
         + 'Zeyada'
         + a cursive decorative font
@@ -37,7 +38,7 @@ Design choices
         + chose this font because it is more appealing that the default sans-serif fonts
 ---------------------------
 
-- webpages
+- Webpages
     * index.html
     * about.html
     * contact.html
