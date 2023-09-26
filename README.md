@@ -1,6 +1,7 @@
 # Program:      Business/e-commerce website
-> desc:         a generic website about fitness and food, with login and signup pages
-                (a simple multi-page website, using html, css, and js(responsive design))
+> desc:         
+                * a generic website about fitness and food, with login and signup pages
+                * (a simple multi-page website, using html, css, and js(responsive design))
 - creator:      trpl-A
 - started:      02.05.23 
 - updated:      26.09.23
@@ -36,13 +37,13 @@ Design choices
 ---------------------------
 
 - webpages
-    > index.html
-    > about.html
-    > contact.html
-    > gallery.html
-    > bmi.html
-    > login.html
-    > signup.html
+    * index.html
+    * about.html
+    * contact.html
+    * gallery.html
+    * bmi.html
+    * login.html
+    * signup.html
 
     > 404.html
     > forgot-password.html
