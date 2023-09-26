@@ -2,7 +2,6 @@
 > Desc:         
 * a generic website about fitness and food, with login and signup pages
 * (a simple multi-page website, using html, css, and js(responsive design))
-> 
 
 - Creator:      trpl-A
 - Started:      02.05.23 
@@ -13,9 +12,8 @@
 
 
 ## More notes
-==========
-Design choices
---------------
+
+### Design choices
 - Primary colors 
     * white
     * black
@@ -38,7 +36,7 @@ Design choices
         + chose this font because it is more appealing that the default sans-serif fonts
 ---------------------------
 
-- Webpages
+### Webpages
     * index.html
     * about.html
     * contact.html
